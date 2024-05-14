@@ -1,0 +1,41 @@
+[2024-05-14 08:27:01] INFO [run: run_all.py, 30] ==== 测试开始 ====
+[2024-05-14 08:27:01] INFO [send_request: basecase.py, 36] post json data
+[2024-05-14 08:27:01] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:04] INFO [send_request: basecase.py, 36] post json data
+[2024-05-14 08:27:04] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='student'
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 27] (1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '1', 40, 1, datetime.datetime(2023, 11, 11, 0, 0), 12, '', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 5, 15, 16, 19, 30), None, b'\x00', None)
+[2024-05-14 08:27:06] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.11:8000
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='peter'
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 27] None
+[2024-05-14 08:27:06] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 127.0.0.11:8000
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='student'
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 27] (1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '1', 40, 1, datetime.datetime(2023, 11, 11, 0, 0), 12, '', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 5, 15, 16, 19, 30), None, b'\x00', None)
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='student'
+[2024-05-14 08:27:06] DEBUG [query_db: db1.py, 27] (1, 'd2d29da2-dcb3-4013-b874-727626236f47', 'student', 'D1AGFL+Gx37t0NPG4d6biYP5Z31cNbwhK5w1lUeiHB2zagqbk8efYfSjYoh1Z/j1dkiRjHU+b0EpwzCh8IGsksJjzD65ci5LsnodQVf4Uj6D3pwoscXGqmkjjpzvSJbx42swwNTA+QoDU8YLo7JhtbUK2X0qCjFGpd+8eJ5BGvk=', '1', 40, 1, datetime.datetime(2023, 11, 11, 0, 0), 12, '', 1, 1, 'https://www.mindskip.net:9008/image/ba607a75-83ba-4530-8e23-660b72dc4953/头像.jpg', datetime.datetime(2019, 9, 7, 18, 55, 2), datetime.datetime(2023, 5, 15, 16, 19, 30), None, b'\x00', None)
+[2024-05-14 08:27:06] INFO [send_request: basecase.py, 36] post json data
+[2024-05-14 08:27:06] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:08] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='peter'
+[2024-05-14 08:27:08] DEBUG [query_db: db1.py, 27] None
+[2024-05-14 08:27:08] INFO [send_request: basecase.py, 36] post json data
+[2024-05-14 08:27:08] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:10] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:12] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:14] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:17] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:19] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:21] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:23] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:25] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:27] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='peter'
+[2024-05-14 08:27:27] DEBUG [query_db: db1.py, 27] None
+[2024-05-14 08:27:27] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:29] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='test3'
+[2024-05-14 08:27:29] DEBUG [query_db: db1.py, 27] None
+[2024-05-14 08:27:29] ERROR [change_db: db1.py, 43] (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user_name','password') values ('test3','123456')' at line 1")
+[2024-05-14 08:27:29] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:31] DEBUG [query_db: db1.py, 22] select * from t_user where user_name ='peter'
+[2024-05-14 08:27:31] DEBUG [query_db: db1.py, 27] None
+[2024-05-14 08:27:31] DEBUG [_new_conn: connectionpool.py, 244] Starting new HTTP connection (1): 192.168.55.11:8000
+[2024-05-14 08:27:33] INFO [run: run_all.py, 42] 测试成功
+[2024-05-14 08:27:34] ERROR [send_email: send_email.py, 51] [Errno 11001] getaddrinfo failed
